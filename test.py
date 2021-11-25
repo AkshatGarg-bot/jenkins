@@ -9,8 +9,8 @@ class Testfactorial(unittest.TestCase):
         result2 = factorial(0)
         self.assertEqual(result2, 0)
     def test_factorial3(self):
-        result3 = factorial(20)
-        self.assertEqual(result3, 6765)
+        result3 = factorial(3)
+        self.assertEqual(result3, 6)
 
 
 if __name__ == '__main__':
