@@ -7,7 +7,7 @@ class Testfactorial(unittest.TestCase):
         self.assertEqual(result1, 362880)
     def test_factorial2(self):
         result2 = factorial(0)
-        self.assertEqual(result2, 0)
+        self.assertEqual(result2, 1)
     def test_factorial3(self):
         result3 = factorial(3)
         self.assertEqual(result3, 6)
